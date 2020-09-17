@@ -1,0 +1,9 @@
+.main {
+    padding-top: 7rem;
+    padding-left: calc(20vw + 2rem);
+    padding-right: 2rem;
+
+    @media (max-width: 1000px) {
+        padding-left: 232px;
+    }
+}

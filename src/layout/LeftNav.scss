@@ -1,0 +1,15 @@
+.left-nav {
+    position: fixed;
+    z-index: 500;
+    width: 20vw;
+    min-width: 200px;
+    height: 100vh;
+    background-color: #fafafa;
+    padding-top: 10rem;
+
+    .menu {
+        width: 100% !important;
+        border: none;
+        box-shadow: none !important;
+    }
+}

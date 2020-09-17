@@ -1,0 +1,16 @@
+.skill-detail {
+    padding: 2rem 0;
+
+    &__meta {
+        display: grid;
+        grid-template-columns: 10rem 1fr;
+        row-gap: 1rem;
+    }
+
+    &__list {
+        list-style-type: none;
+        li {
+            padding: 0.5rem 0;
+        }
+    }
+}

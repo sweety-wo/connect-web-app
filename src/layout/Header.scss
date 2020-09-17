@@ -1,0 +1,40 @@
+.header {
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    color: white;
+    background-color: #3a5199;
+    padding-left: calc(20vw + 2rem);
+    padding-right: 2rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+        font-size: 2rem;
+    }
+
+    &__user {
+        img {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+        }
+
+        a {
+            color: #fff;
+        }
+    }
+
+    &__popover {
+        width: 20rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @media (max-width: 1000px) {
+        padding-left: 232px;
+    }
+}

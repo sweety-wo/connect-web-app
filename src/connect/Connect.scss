@@ -1,0 +1,29 @@
+.connect {
+  .ui.styled.accordion {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .ui.form .fields {
+    margin-bottom: 0;
+  }
+
+  .draggable-row{
+    display: block;
+    padding: 4px;
+    margin: 8px 0;
+    border-radius: .28571429rem;
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15), 0 0 0 1px rgba(34,36,38,.15);
+    color: #000
+  }
+
+  .draggable-row.active{
+    background: rgba(#3a5199, 0.9);
+    color: #fff
+  }
+
+  .draggable-row.active i.icon{
+    color: #fff
+  }
+}
